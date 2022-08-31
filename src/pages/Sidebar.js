@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
 
+
+
 const Sidebar = () => {
     const [show, setShow] = useState(false);
-
 
     return (
         <main className={show ? 'space-toggle' : null}>
@@ -26,7 +27,7 @@ const Sidebar = () => {
 
                             <Link to='/dashboard' className='nav-link active'>
                                 <i class="fa-solid fa-user"></i>
-                                <span className='nav-link-name'>Hey ana flan </span>
+                                <span className='nav-link-name'>Hey ana flan</span>
                             </Link>
 
                             <Link to='/gallery' className='nav-link'>
